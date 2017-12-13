@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Udacity-Apartamento", "Assembly-CSharp.csproj", "{110D85F3-8212-7B32-3A5A-C6B4F00CB134}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Udacity-Apartamento", "Assembly-CSharp-Editor.csproj", "{75E34991-EAE6-5212-7781-C8015C541C52}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{110D85F3-8212-7B32-3A5A-C6B4F00CB134}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{110D85F3-8212-7B32-3A5A-C6B4F00CB134}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{110D85F3-8212-7B32-3A5A-C6B4F00CB134}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{110D85F3-8212-7B32-3A5A-C6B4F00CB134}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75E34991-EAE6-5212-7781-C8015C541C52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75E34991-EAE6-5212-7781-C8015C541C52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75E34991-EAE6-5212-7781-C8015C541C52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75E34991-EAE6-5212-7781-C8015C541C52}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
