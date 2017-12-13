@@ -38,6 +38,11 @@ public class GvrFPS : MonoBehaviour {
 
   public Color textColor = Color.white;
 
+  public Text text; 
+  void Start(){
+    text = GetComponent<Text>();
+  }
+
   void LateUpdate() {
     float deltaTime = Time.unscaledDeltaTime;
     float interp = deltaTime / (0.5f + deltaTime);
@@ -45,6 +50,7 @@ public class GvrFPS : MonoBehaviour {
     fps = Mathf.Lerp(fps, currentFPS, interp);
     float msf = MS_PER_SEC / fps;
     fpsText = string.Format(DISPLAY_TEXT_FORMAT, msf, fps);
+    text.text = fpsText;
   }
 
   void OnGUI() {
